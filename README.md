@@ -34,3 +34,6 @@ To provide a system for the reservation of student-led conference times, a datab
 The primary goal of this project is to remodel the user experience of the Original Form, providing a more intuitive and straight-forward experience to Users.
 
 Additional goals of the project are to increase the depth of the Form by providing additional features. The System will incorporate a database that includes additional information on the assocations of Guardians, Teachers and Students which allows Users to reserve a time without the requiring the knownledge of the subjects the Student is undertaking.
+
+### More
+A more detailed description of the product can be found within the <a href="http://letterssnail.github.io/student-led_conferences/software_requirements_specification.html">Software Requirements Specification</a>.
