@@ -15,4 +15,5 @@ The primary goal of this project is to remodel the user experience of the origin
 
 Additional goals of the project are to increase the depth of the form by providing additional features. The system will incorporate a database that includes additional information on the assocations of guardians, teachers and students which allows users to reserve a time without requiring the knowledge of the subjects the student is undertaking.
 
+### More
 The <a href="http://letterssnail.github.io/student-led_conferences/software_requirements_specification.html">software requirements specification</a> is available for a more comprehensive view of the system and the <a href="http://letterssnail.github.io/student-led_conferences/design_criteria.html">design criteria</a> is available for insight into the design of the form.
