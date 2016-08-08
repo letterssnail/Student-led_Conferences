@@ -24,3 +24,11 @@ A list of words and phrases used throughout the document to describe specific th
     <dt><dfn id="User">User</dfn></dt><dd>a user with a login; this includes <a href="#Family"><i>Family</i></a>, <a href="#Teacher"><i>Teachers</i></a> and <a href="#System"><i>System</i></a> Administration.</dd>
 </dl>
 These terms are refered to in title case and lower case very deliberately, the terms written in title case refer to the terms listed above and the terms written in lowercase refer to the word itself. When the term is refered to, it will be written in title case and marked up like this: <a href="#System"><i>System</i></a>. When the term is refering to the word itself, it will be written in lowercase with no special styling: system.
+
+### Audience
+The Form is intended to provide a platform for Guardians and Students to reserve a conference time at the student-led conferences. The Form will have a system that allows Teachers to view the times that their Student's Families have reserved.
+To provide a system for the reservation of student-led conference times, a database with User information will be required with booking times associated to Teachers. The Form will provide a platform in which the System Administrator can view, manage and run the Association Database.
+
+### Scope
+The primary goal of this project is to remodel the user experience of the Original Form, providing a more intuitive and straight-forward experience to Users.
+Additional goals of the project are to increase the depth of the Form by providing additional features. The System will incorporate a database that includes additional information on the assocations of Guardians, Teachers and Students which allows Users to reserve a time without the requiring the knownledge of the subjects the Student is undertaking.
