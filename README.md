@@ -5,35 +5,15 @@ Student-led conferences present the opportunity for students to lead conferences
 
 Parents and guardians have expressed interest in a redesign of the student-led conference forms and have outlined various design choices that, while meeting the requirements of a booking form, have created an unintuitive and complicated experience.
 
-### Terms
-A list of words and phrases used throughout the document to describe specific things in context to the software:
-<dl class="def">
-    <dt><dfn id="School">School</dfn></dt><dd>Surf Coast Secondary College, the school the form is being built for.</dd>
-    <dt><dfn id="Original_Form">Original Form</dfn></dt><dd>the original student-led conference form that was created for the <a href="#School"><i>School</i></a>.</dd>
-    <dt><dfn id="Form">Form</dfn></dt><dd>the new student-led conference form, a redesign that is being created for the <a href="#School"><i>School</i></a>.</dd>
-    <dt><dfn id="Student">Student</dfn></dt><dd>the students at the <a href="#School"><i>School</i></a>.</dd>
-    <dt><dfn id="Guardian">Guardian</dfn></dt><dd>the guardian(s) of the <a href="#Student"><i>Students</i></a>.</dd>
-    <dt><dfn id="Family">Family</dfn></dt><dd>one or more <dfn>Student(s)</dfn> associated with a <a href="#Guardian"><i>Guardian</i></a>.</dd>
-    <dt><dfn is="Family_Login">Family Login</dfn></dt><dd>account details providing a <a href="#Family"><i>Family</i></a> access to the <a href="#Form"><i>Form</i></a>.</dd>
-    <dt><dfn id="Teacher">Teacher</dfn></dt><dd>the teachers at the <a href="#School"><i>School</i></a>.</dd>
-    <dt><dfn id="Teacher_Login">Teacher Login</dfn></dt><dd>account details providing a <a href="#Teacher"><i>Teacher</i></a> access to the <a href="#Form"><i>Form</i></a>.</dd>
-    <dt><dfn id="Association_Database">Association Database</dfn></dt><dd>a database of the <a href="#Family"><i>Family</i></a>, <a href="#Guardian"><i>Guardians</i></a>, <a href="#Student"><i>Students</i></a> and <a href="#Teacher"><i>Teachers</i></a> containing associations between.</dd>
-    <dt><dfn id="System">System</dfn></dt><dd>the system; this incorporates the all the components of the <a href="#Form"><i>Form</i></a> including the <a href="#Association_Database"><i>Association Database</i></a>.</dd>
-    <dt><dfn id="System_Administrator">System Administrator</dfn></dt><dd>an administrator of the <a href="#System"><i>System</i></a>.</dd>
-    <dt><dfn id="System_Administrator_Login">System Administrator Login</dfn></dt><dd>account details providing an administrator access to the <a href="#Form"><i>Form</i></a>.</dd>
-    <dt><dfn id="User">User</dfn></dt><dd>a user with a login; this includes <a href="#Family"><i>Family</i></a>, <a href="#Teacher"><i>Teachers</i></a> and <a href="#System"><i>System</i></a> Administration.</dd>
-</dl>
-These terms are refered to in title case and lower case very deliberately, the terms written in title case refer to the terms listed above and the terms written in lowercase refer to the word itself. When the term is refered to, it will be written in title case and marked up like this: <a href="#System"><i>System</i></a>. When the term is refering to the word itself, it will be written in lowercase with no special styling: system.
-
 ### Audience
-The Form is intended to provide a platform for Guardians and Students to reserve a conference time at the student-led conferences. The Form will have a system that allows Teachers to view the times that their Student's Families have reserved.
+This redesign of the form's functional requirements is to provide a platform for students and their guardians to reserve a conference time at the student-led conferences. It will have a system that allows teachers to view the times that their student's families have reserved.
 
-To provide a system for the reservation of student-led conference times, a database with User information will be required with booking times associated to Teachers. The Form will provide a platform in which the System Administrator can view, manage and run the Association Database.
+To provide a system for the reservation of student-led conference times, a database with user information will be required. The form will provide a platform in which a system administrator can view, manage and run this database.
 
 ### Scope
-The primary goal of this project is to remodel the user experience of the Original Form, providing a more intuitive and straight-forward experience to Users.
+The primary goal of this project is to remodel the user experience of the original form, providing a more intuitive and straight-forward experience to users.
 
-Additional goals of the project are to increase the depth of the Form by providing additional features. The System will incorporate a database that includes additional information on the assocations of Guardians, Teachers and Students which allows Users to reserve a time without the requiring the knownledge of the subjects the Student is undertaking.
+Additional goals of the project are to increase the depth of the form by providing additional features. The system will incorporate a database that includes additional information on the assocations of guardians, teachers and students which allows users to reserve a time without requiring the knowledge of the subjects the student is undertaking.
 
 ### More
 A more detailed description of the product can be found within the <a href="http://letterssnail.github.io/student-led_conferences/software_requirements_specification.html">Software Requirements Specification</a>.
