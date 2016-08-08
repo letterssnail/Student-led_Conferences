@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<title>Family Sign-in | Student-led Conferences</title>
+	<link rel="icon" type="image/png" sizes="96x96" href="scsc-favicon.png">
+	
+	<style>
+	/* ************************ */
+	/* RESETS & GENERAL STYLING */
+	/* ************************ */
+	*, *:before, *:after { box-sizing: inherit; }
+
+	:focus { outline: 0; } /* this removes default focus highlighting */
+
+	body {
+		max-width: 15rem;
+		margin: 2rem auto;
+
+		background-color: #FFF;
+		font-family: 'Helvetica Neue','Helvetica','Nimbus Sans L','Arial','Liberation Sans',sans-serif;
+		font-size: 100%; }
+
+	a[href] { color: #CCC; text-decoration: none; }
+	a[href]:hover,
+	a[href]:focus { color: #666; }
+
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: normal;
+		margin: 1rem auto; }
+	h1 { font-size: 1.6rem; }
+	h2 { font-size: 1.5rem; }
+	h3 { font-size: 1.4rem; }
+	h4 { font-size: 1.3rem; }
+	h5 { font-size: 1.2rem; }
+	h6 { font-size: 1.1rem; }
+
+	/* ************** */
+	/* HEADER STYLING */
+	/* ************** */
+	header {
+		max-width: 15rem;
+		margin: 2rem auto; }
+	header a {
+		display: block;
+		margin: 0 auto;
+		width: 80px;
+		height: 80px; /* if image size is changed, this needs to be changed also */
+
+		background-color: #FFF;
+		border: 2px solid transparent;
+		border-radius: 50%;
+
+		transition: border 0.25s; }
+	header a:focus {
+		border: 2px solid #666;
+		border-radius: 50%; }
+	header h1 {
+		text-align: center;
+		margin: 1rem auto;
+		font-weight: normal; }
+
+	/* ************ */
+	/* FORM STYLING */
+	/* ************ */
+	form {
+		max-width: 15rem;
+		width: 100%;
+		display: block;
+		margin: 2rem auto; }
+
+	input,
+	button {
+		box-sizing: border-box;
+		max-width: 15rem;
+		width: 100%;
+		/* calc(100% - 2 * 5px - 2 * 1px); */
+		/* full width of container minus padding and border */
+		/* fixed using border-sizing: border-box; */
+		display: block;
+
+		padding: 8px 5px;
+
+		border-radius: 1px;
+
+		font-size: 1rem;
+		font-family: 'Menlo','Monaco','Lucida Console','Liberation Mono','Courier New',monospace,sans-serif; }
+
+	label { font-size: 1.2rem; }
+	input {
+		margin: 0.25rem 0 0.5rem;
+
+		border: 1px solid #CCC;
+		border-bottom-width: 2px;
+
+		transition: border 250ms; }
+	input:focus { border-bottom-color: #666; }
+	[placeholder]::-webkit-input-placeholder { transition: opacity 500ms; }
+	[placeholder]:focus::-webkit-input-placeholder { opacity: 0.4; }
+
+	button {
+		margin: 1rem 0;
+
+		cursor: pointer;
+		border: none;
+		background-color: #CCC;
+
+		transition: all 150ms; }
+	button:hover,
+	button:focus {
+		border-color: #AAD6F3;
+		background-color: #AAD6F3;
+		color: #EFEFEF; }
+	</style>
+</head>
+<body>
+	<header>
+		<a href="/">
+			<img src="scsc-logo.png" height="80px" alt="The Surf Coast Secondary College logo; two waves inside a double-bordered circle.">
+		</a>
+		<h1>Student-led Conferences</h1>
+	</header>
+
+	<form>
+		<label for="name">Family username</label>
+		<input id="name" type="name" name="name" placeholder="abc0001">
+		<label for="password">Family password</label>
+		<input id="password" type="password" name="password" placeholder="One12two">
+		<button type="submit">Sign-in</button>
+	</form>
+</body>
+</html>
