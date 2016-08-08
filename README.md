@@ -1,6 +1,5 @@
 <img src="images/scsc-logo.png" alt="Surf Coast Secondary College logo; two waves in a circle" width=80px>
-# Surf Coast Secondary College
-## Student-led Conferences
+# Student-led Conferences
 
 Student-led conferences present the opportunity for students to lead conferences informing their parents and guardians about their academic progress. Through the program students are able to take control of their learning experience which is a key component to creating an environment in which students can thrive to achieve their best at Surf Coast Secondary College.
 
