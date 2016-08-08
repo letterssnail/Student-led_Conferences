@@ -1,4 +1,4 @@
-![alt text](images/scsc-logo.png)
+![alt text](images/scsc-logo.png =80x)
 # Surf Coast Secondary College
 ## Student-led Conferences
 
